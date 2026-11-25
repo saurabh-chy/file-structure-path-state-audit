@@ -1,0 +1,2 @@
+sample_order,repo_id,initiating_sha,candidate_sha,repository_url,fetch_status,history_complete,candidate_descendant,event_descendant,ancestry_status_full_history
+122,tencentyun_iot-link-android,723d5acffd8d59f29361020770a05b038d6eb25c,ec51ca5f837c12b8b5754304028c5e9f3c9aa873,https://github.com/tencentyun/iot-link-android,retrieved,True,yes,no,confirmed_after_full_history

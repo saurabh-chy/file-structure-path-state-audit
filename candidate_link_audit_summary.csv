@@ -1,0 +1,27 @@
+metric,value,definition
+Initiating event-path rows,1167.0,All rows in classified event workbook
+Unique initiating commits,1062.0,Distinct initiating commit identifiers
+Unique initiating repositories,1020.0,Distinct repository identifiers
+Rows with candidate correction ID,708.0,Candidate identifier present
+Rows without candidate correction ID,459.0,Candidate identifier missing
+Exact repository-path-commit matches,566.0,Candidate matched to correction export
+Candidate IDs without exact match,142.0,Direct count of left-only candidate rows
+Distinct unmatched event keys,129.0,Unique repository-candidate-hash-path combinations
+Distinct unmatched correction hashes,107.0,Unique hashes among directly unmatched rows
+Chronologically earlier exact matches,10.0,Candidate commit index precedes initiating event
+Chronologically later exact matches,556.0,Candidate commit index follows initiating event
+Later matches with tied timestamps,5.0,Commit index later but elapsed time is zero
+Earliest later candidate per event-path,526.0,After event-path deduplication
+Distinct initiating commit hashes with retained links,514.0,"Distinct SHA-1 hashes, repository not included"
+Repository-commit pairs with retained links,526.0,Repository-scoped initiating commits
+Repositories with retained links,526.0,Distinct repository identifiers
+Hashes repeated across repository IDs,11.0,Distinct hashes found in multiple repository IDs
+Rows carrying a repeated hash,23.0,Repository-link rows sharing a hash across repositories
+Median elapsed days,62.75140046296296,"Candidate-link interval, not reversal latency"
+First quartile elapsed days,4.28480324074074,Candidate-link interval
+Third quartile elapsed days,243.57139756944446,Candidate-link interval
+Mean elapsed days,235.14464432826364,Candidate-link interval
+Maximum elapsed days,2988.8877199074072,Candidate-link interval
+correction_diff <= 0,366.0,Repository maximum-depth-change sum
+correction_diff == 0,213.0,Repository maximum-depth-change sum
+correction_diff > 0,160.0,Repository maximum-depth-change sum

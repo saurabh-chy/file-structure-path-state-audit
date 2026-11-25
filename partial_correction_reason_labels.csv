@@ -1,0 +1,13 @@
+partial_correction_reason,n
+Remove Vendor,7
+Fix,6
+Ignore File,4
+Clean Up,2
+Refactor,1
+Remove supp,1
+Repo Clear,1
+Restructure,1
+Internal -> External Deps,1
+Remove Resource,1
+Remove dependency,1
+Deps Update,1

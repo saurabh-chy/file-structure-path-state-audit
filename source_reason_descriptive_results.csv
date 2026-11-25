@@ -1,0 +1,8 @@
+coverage,n_retrieved,source_reason,label_n,median_days_to_candidate,within_30_days_n,strict_path_presence_returns_n,strict_path_presence_returns_pct
+Git-retrieved census links,509,Error,4,0.0027951388888888496,4,4,100.0
+Git-retrieved census links,509,Generated,33,5.583483796296297,22,31,93.93939393939394
+Git-retrieved census links,509,Normal,91,136.94336805555557,23,68,74.72527472527473
+Git-retrieved census links,509,Resource,114,60.485428240740745,45,101,88.59649122807018
+Git-retrieved census links,509,Subproject,6,129.21522569444446,1,6,100.0
+Git-retrieved census links,509,Tests,57,88.96394675925926,13,48,84.21052631578947
+Git-retrieved census links,509,Vendor,204,58.99047453703704,88,196,96.07843137254902
